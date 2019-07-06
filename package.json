@@ -1,61 +1,19 @@
 {
-    "name": "hopscotch",
-    "displayName": "Hopscotch",
-    "description": "Color scheme inspired by the Hopscotch learning platform for kids",
-    "version": "0.2.2",
-    "publisher": "idleberg",
-    "license": "CC0-1.0",
-    "author": {
-        "name": "Jan T. Sott",
-        "url": "http://github.com/idleberg"
-    },
-    "scripts": {
-        "postinstall": "node ./node_modules/vscode/bin/install",
-        "precommit": "npm run test",
-        "test": "vscode-linter",
-        "vscode:prepublish": "gulp"
-    },
-    "keywords": [
-        "hopscotch"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/idleberg/vscode-hopscotch"
-    },
-    "homepage": "https://github.com/idleberg/vscode-hopscotch#readme",
-    "bugs": {
-        "url": "https://github.com/idleberg/vscode-hopscotch/issues"
-    },
-    "icon": "images/logo.png",
-    "galleryBanner": {
-        "color": "#d5d3d5"
-    },
-    "engines": {
-        "vscode": "^1.0.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Hopscotch",
-                "uiTheme": "vs-dark",
-                "path": "./themes/hopscotch.json"
-            },
-            {
-                "label": "Hopscotch (TextMate Theme)",
-                "uiTheme": "vs-dark",
-                "path": "./themes/hopscotch.tmTheme"
-            }
-        ]
-    },
-    "devDependencies": {
-        "gulp": "^4.0.0",
-        "gulp-raster": "^0.2.0",
-        "gulp-rename": "^1.2.2",
-        "husky": "^0.14.3",
-        "vscode": "^1.1.10",
-        "vscode-linter": "^0.2.1"
-    }
+  "name": "enzo",
+  "displayName": "enzo",
+  "description": "custom theme for vscode",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.36.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "enzo",
+        "uiTheme": "vs-dark",
+        "path": "./themes/enzo.json"
+      }
+    ]
+  }
 }

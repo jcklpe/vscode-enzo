@@ -1,9 +1,12 @@
 # Enzo for Visual Studio Code
 
-Custom vscode theme. based off @idleberg's [hopscotch](https://github.com/idleberg/vscode-hopscotch) vscode theme. 
+Custom vscode theme. based off @idleberg's [hopscotch](https://github.com/idleberg/vscode-hopscotch) vscode theme.
 
-![Screenshot](https://raw.githubusercontent.com/idleberg/vscode-hopscotch/master/images/screenshot.png)
+## Build Process
 
+Added the ability to use variables in JSON files using node module [variable-replacer](https://www.npmjs.com/package/variable-replacer). Just run render.sh from CLI to render a new version of enzo.json theme.
+
+![Screenshot](./images/screenshot.png)
 
 ## License
 
