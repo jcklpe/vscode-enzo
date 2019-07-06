@@ -1,13 +1,112 @@
 {
-  "name": "enzo",
-  "displayName": "enzo",
-  "description": "custom theme for vscode",
+  "name": "enzo-syntax",
+  "displayName": "enzo-syntax",
+  "description": "additional syntax for enzo theme",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.36.0"
   },
-  "categories": ["Themes"],
+  "keywords": [
+    "theme",
+    "syntax coloring",
+    "javascript",
+    "bash",
+    "typescript",
+    "react",
+    "color",
+    "colour",
+    "coloring",
+    "colouring",
+    "theme",
+    "color theme",
+    "scheme",
+    "color scheme",
+    "syntax",
+    "syntax coloring",
+    "syntax colouring",
+    "language",
+    "language grammar",
+    "language extension",
+    "code",
+    "script",
+    "class",
+    "classes",
+    "vscode",
+    "vs code",
+    "visual studio",
+    "visual studio code",
+    "enzo"
+  ],
+  "publisher": "Aslan French",
+  "author": {
+    "name": "Aslan French (jcklpe)",
+    "url": "https://www.jackalope.tech"
+  },
+  // "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#2b2d35",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jcklpe/vscode-enzo"
+  },
+  "homepage": "https://github.com/jcklpe/vscode-enzo/blob/master/README.md",
+  "bugs": { "url": "https://github.com/jcklpe/vscode-enzo/issues" },
+  "categories": ["Programming Languages"],
+  // copy pasted from elsewhere
   "contributes": {
+    "languages": [
+      {
+        "id": "enzo",
+        "aliases": ["enzo syntax extensions"],
+        "extensions": [".js", ".jsx", ".html", ".php", ".zsh", ".sh", ".json"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    // "languages":
+    // [
+    //     {
+    //         "id": "enzo-script",
+    //         "aliases": [ "enzo extended syntax" ],
+    //         "extensions": [ ".js", ".ts", ".jsx", ".php", ".html" ],
+    //         "configuration": "./language-configuration.json"
+    //     },
+    //     {
+    //       "id": "enzo-hyper",
+    //       "aliases": [ "enzo extended syntax" ],
+    //       "extensions": [ ".php", ".html" ],
+    //       "configuration": "./language-configuration.json"
+    //   },
+    //   {
+    //     "id": "enzo-styles",
+    //     "aliases": [ "enzo extended syntax" ],
+    //     "extensions": [ ".scss", ".css", ".sass" ],
+    //     "configuration": "./language-configuration.json"
+    // },
+    // ],
+    "grammars": [
+      {
+        "path": "./syntaxes/source.js.enzo.json",
+        "scopeName": "enzo",
+        "injectTo": ["source.js"]
+      },
+      {
+        "path": "./syntaxes/source.html.enzo.json",
+        "scopeName": "enzo",
+        "injectTo": ["source.html"]
+      },
+      {
+        "path": "./syntaxes/source.php.enzo.json",
+        "scopeName": "enzo",
+        "injectTo": ["source.php"]
+      },
+      {
+        "path": "./syntaxes/source.zsh.enzo.json",
+        "scopeName": "enzo",
+        "injectTo": ["source.zsh"]
+      }
+    ],
     "themes": [
       {
         "label": "enzo",
