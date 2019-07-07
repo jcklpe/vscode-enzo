@@ -1,0 +1,27 @@
+{
+  "scopeName": "text.html.enzo",
+  "fileTypes": ["html", "js"],
+  "firstLineMatch": "<(?i:(!DOCTYPE\\s*)?html)",
+  "name": "ENZO",
+  "patterns": [
+    {
+      "begin": "<!--",
+      "captures": {
+        "0": {
+          "name": "html.enzo"
+        }
+      },
+      "end": "--\\s*>",
+      "name": "html.enzo",
+      "patterns": [
+        {
+          "match": "--",
+          "name": "invalid.illegal.bad-comments-or-CDATA.html"
+        },
+        {
+          "include": "#embedded-code"
+        }
+      ]
+    }
+  ]
+}
