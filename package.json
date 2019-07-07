@@ -55,14 +55,6 @@
   "homepage": "https://github.com/jcklpe/vscode-enzo/blob/master/README.md",
   "bugs": { "url": "https://github.com/jcklpe/vscode-enzo/issues" },
   "contributes": {
-    "languages": [
-      {
-        "id": "enzo",
-        "aliases": ["enzo syntax extensions"],
-        "extensions": [".js", ".jsx", ".html", ".php", ".zsh", ".sh", ".json"],
-        "configuration": "./language-configuration.json"
-      }
-    ],
     "grammars": [
       {
         "path": "./syntaxes/source.js.enzo.json",
@@ -72,7 +64,7 @@
       {
         "path": "./syntaxes/source.html.enzo.json",
         "scopeName": "enzo",
-        "injectTo": ["source.html"]
+        "injectTo": ["text.html"]
       },
       {
         "path": "./syntaxes/source.php.enzo.json",
