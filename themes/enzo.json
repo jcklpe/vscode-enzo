@@ -576,7 +576,6 @@
         "foreground": "#9fb30e"
       }
     },
-
     {
       "name": "commas",
       "scope": ["punctuation.separator.comma.js"],
@@ -584,7 +583,6 @@
         "foreground": "#e2da4b"
       }
     },
-
     {
       "name": "array brackets",
       "scope": ["meta.array.literal.js meta.brace.square.js "],
@@ -592,7 +590,6 @@
         "foreground": "#e2da4b"
       }
     },
-
     {
       "name": "equals sign for assigning variables",
       "scope": ["keyword.operator.assignment.js"],
@@ -600,7 +597,6 @@
         "foreground": "#ffa342"
       }
     },
-
     {
       "name": "equals sign for assigning variables",
       "scope": ["punctuation.separator.key-value.html"],
@@ -608,7 +604,6 @@
         "foreground": "#ffa342"
       }
     },
-
     {
       "name": "comparison sign",
       "scope": ["keyword.operator.comparison.js"],
@@ -616,7 +611,6 @@
         "foreground": "#ffa342"
       }
     },
-
     // fix missing array functions
     {
       "name": "array function",
@@ -625,7 +619,6 @@
         "foreground": "#ff677b"
       }
     },
-
     {
       "name": "variable being used with a function",
       "scope": ["support.variable.property.js"],
@@ -633,7 +626,6 @@
         "foreground": "#ff1677"
       }
     },
-
     {
       "name": "operators",
       "scope": ["keyword.operator.arithmetic.js"],

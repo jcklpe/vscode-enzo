@@ -1,11 +1,12 @@
 {
-  "name": "enzo-syntax",
-  "displayName": "enzo-syntax",
-  "description": "additional syntax for enzo theme",
+  "name": "enzo",
+  "displayName": "enzo",
+  "description": "theme and syntax for vscode",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.36.0"
   },
+  "categories": ["Themes"],
   "keywords": [
     "theme",
     "syntax coloring",
@@ -42,7 +43,7 @@
     "name": "Aslan French (jcklpe)",
     "url": "https://www.jackalope.tech"
   },
-  // "icon": "images/icon.png",
+  "icon": "./images/logo.png",
   "galleryBanner": {
     "color": "#2b2d35",
     "theme": "dark"
@@ -53,8 +54,6 @@
   },
   "homepage": "https://github.com/jcklpe/vscode-enzo/blob/master/README.md",
   "bugs": { "url": "https://github.com/jcklpe/vscode-enzo/issues" },
-  "categories": ["Programming Languages"],
-  // copy pasted from elsewhere
   "contributes": {
     "languages": [
       {
@@ -64,27 +63,6 @@
         "configuration": "./language-configuration.json"
       }
     ],
-    // "languages":
-    // [
-    //     {
-    //         "id": "enzo-script",
-    //         "aliases": [ "enzo extended syntax" ],
-    //         "extensions": [ ".js", ".ts", ".jsx", ".php", ".html" ],
-    //         "configuration": "./language-configuration.json"
-    //     },
-    //     {
-    //       "id": "enzo-hyper",
-    //       "aliases": [ "enzo extended syntax" ],
-    //       "extensions": [ ".php", ".html" ],
-    //       "configuration": "./language-configuration.json"
-    //   },
-    //   {
-    //     "id": "enzo-styles",
-    //     "aliases": [ "enzo extended syntax" ],
-    //     "extensions": [ ".scss", ".css", ".sass" ],
-    //     "configuration": "./language-configuration.json"
-    // },
-    // ],
     "grammars": [
       {
         "path": "./syntaxes/source.js.enzo.json",
