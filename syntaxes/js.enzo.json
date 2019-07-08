@@ -1,3 +1,55 @@
+    // ///////////////////////////////
+    // //-  Title styling
+    // "(\\/\\/\\-)(.*)": [
+    //   {
+    //     "overviewRulerColor": "yellow",
+    //     "backgroundColor": "yellow",
+    //     "color": "yellow",
+    //     "fontWeight": "bold"
+    //   },
+    //   {
+    //     "backgroundColor": "black",
+    //     "color": "#72edeb",
+    //     "fontWeight": "bold",
+    //     "isWholeLine": true,
+    //     "fontSize": "2em"
+    //   }
+    // ],
+    // //////////////////////////////
+    // //- Additional styling for signage
+    // "(\\/\\/\\/\\/.*)(.*)": [
+    //   {
+    //     "overviewRulerColor": "yellow",
+    //     "backgroundColor": "yellow",
+    //     "color": "yellow",
+    //     "fontWeight": "bold"
+    //   },
+    //   {
+    //     "backgroundColor": "black",
+    //     "color": "yellow",
+    //     "fontWeight": "bold",
+    //     "isWholeLine": true
+    //   }
+    // ],
+        //{{ Angular Dynamic Variable styling}}
+        "(\\{\\{[^\\}|^\\r|^\\n]*\\}\\})(?!\\})": [
+          {
+            "backgroundColor": "rgba(109, 158, 70, 0.71)",
+            "color": "#000",
+            "fontWeight": "bold",
+            "borderRadius": "10px"
+          }
+        ],
+        //{ React Dynamic Variable styling }
+        "(\\{[^\\}|^\\r|^\\n]*\\})(?!\\})": [
+          {
+            "backgroundColor": "rgba(0, 217, 255, 0.95)",
+            "color": "#001130",
+            "fontWeight": "bold",
+            "borderRadius": "10px"
+          }
+        ],
+
 {
     "$schema": "http://json-schema.org/schema#",
     "id": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",

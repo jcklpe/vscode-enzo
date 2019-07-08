@@ -1,6 +1,12 @@
 # Enzo for Visual Studio Code
 
-Custom vscode theme. based off @idleberg's [hopscotch](https://github.com/idleberg/vscode-hopscotch) vscode theme.
+Custom vscode theme with extended syntax sugar. Based off @idleberg's [hopscotch](https://github.com/idleberg/vscode-hopscotch) vscode theme with inspiration from [[eppz' unity syntax and theme extension]](https://github.com/eppz/VSCode.Extension.eppz_Code)
+
+## TODO
+
+[] collate palette reference into variables.json
+[] strip out as much syntax hilighting as possible from hilighting regex extension
+[] research adding hilighting settings into extension somehow?
 
 ## Build Process
 

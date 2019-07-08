@@ -1,3 +1,30 @@
+    //## monospaced hash comments
+    "(^##(?!-).+(?=\n|\r))": [
+      {
+        "overviewRulerColor": "#73f0ae",
+        "backgroundColor": "#181c21",
+        "color": " #73f0ae",
+        "fontWeight": "italic",
+        "isWholeLine": true
+      }
+    ],
+    // ##-  hash comments titles
+    "(##-.*?)(.+(?=\n|\r))": [
+      {
+        "overviewRulerColor": "yellow",
+        "backgroundColor": "yellow",
+        "color": "black",
+        "fontWeight": "bold"
+      },
+      {
+        "backgroundColor": "black",
+        "color": "#72edeb",
+        "fontWeight": "bold",
+        "isWholeLine": true,
+        "fontSize": "2em"
+      }
+    ],
+
 {
     "$schema": "http://json-schema.org/schema#",
     "id": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",

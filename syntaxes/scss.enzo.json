@@ -1,0 +1,19 @@
+    // @import styling
+    "(// )(@\\w+)": [
+        {},
+        {
+          "color": "#4de0ff"
+        }
+      ],
+
+        //*- SCSS block commented code */
+    "((\\/\\*-)([^/*][^*]*\\*+)*\\/)": [
+        // */*
+        {
+          "overviewRulerColor": "Blue",
+          "backgroundColor": "#181c21",
+          "color": " #73f0ae",
+          "fontWeight": "italic",
+          "isWholeLine": true
+        }
+      ],

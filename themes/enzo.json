@@ -611,6 +611,19 @@
         "foreground": "#ffa342"
       }
     },
+
+    {
+      "name": "array function",
+      "scope": ["beginning.enzo"],
+      "settings": {
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "borderColor": "rgba(59,64,82, .7)"
+      }
+    },
+
+    //TEST
+
     // fix missing array functions
     {
       "name": "array function",
