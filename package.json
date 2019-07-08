@@ -59,7 +59,6 @@
       {
         "id": "enzo",
         "aliases": ["enzo", "ENZO"],
-        "extensions": [".js", ".html"],
         "configuration": "./language-configuration.json"
       }
     ],
@@ -67,7 +66,8 @@
       {
         "language": "enzo",
         "path": "./syntaxes/html.enzo.json",
-        "scopeName": "text.html.enzo"
+        "scopeName": "text.enzo",
+        "injectTo": ["text.html"]
       }
     ],
     "themes": [
