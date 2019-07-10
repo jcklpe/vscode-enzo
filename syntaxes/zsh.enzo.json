@@ -13,11 +13,11 @@
       {
         "overviewRulerColor": "yellow",
         "backgroundColor": "yellow",
-        "color": "black",
+        "color": "#000014",
         "fontWeight": "bold"
       },
       {
-        "backgroundColor": "black",
+        "backgroundColor": "#000014",
         "color": "#72edeb",
         "fontWeight": "bold",
         "isWholeLine": true,

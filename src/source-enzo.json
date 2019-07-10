@@ -5,77 +5,77 @@
     "editor.background": "%background%",
     "editor.foreground": "%foreground%",
     // Activity bar
-    "activityBar.background": "%background1%",
-    "activityBar.dropBackground": "%background2%",
-    "activityBar.foreground": "%foreground1%",
-    "activityBar.border": "%background1%",
-    "activityBarBadge.background": "%background2%",
-    "activityBarBadge.foreground": "%hypergreen%",
+    "activityBar.background": "%shadow20%",
+    "activityBar.dropBackground": "%shadow1%",
+    "activityBar.foreground": "%red10%",
+    "activityBar.border": "%shadow20%",
+    "activityBarBadge.background": "%shadow1%",
+    "activityBarBadge.foreground": "%cyan13%",
     // Input
-    "input.background": "%background1%",
-    "inputOption.activeBorder": "%hypergreen%",
-    "input.foreground": "%hypergreen%",
+    "input.background": "%shadow20%",
+    "inputOption.activeBorder": "%cyan13%",
+    "input.foreground": "%cyan13%",
     // Scrollbar
-    "scrollbarSlider.activeBackground": "%background2%66",
+    "scrollbarSlider.activeBackground": "%shadow1%66",
     // Sidebar
-    "sideBar.background": "%background1%",
+    "sideBar.background": "%shadow20%",
     "sideBar.foreground": "%salmon%",
-    "sideBar.border": "%background2%",
-    "sideBar.dropBackground": "%retroblue%",
-    "sideBarTitle.foreground": "%yellow%",
-    "sideBarSectionHeader.background": "%background2%d3",
-    "sideBarSectionHeader.foreground": "%cyan%ce",
+    "sideBar.border": "%shadow1%",
+    "sideBar.dropBackground": "%cyan1%",
+    "sideBarTitle.foreground": "%yellow7%",
+    "sideBarSectionHeader.background": "%shadow1%d3",
+    "sideBarSectionHeader.foreground": "%blue13%ce",
     // tabs
-    "editorGroupHeader.tabsBackground": "%background1%",
-    "tab.inactiveBackground": "%background1%e",
-    "tab.activeForeground": "%hyperyellow%",
-    "tab.activeBorder": "%hyperyellow%",
-    "tab.inactiveForeground": "%foreground1%",
-    "tab.hoverBackground": "%black%",
+    "editorGroupHeader.tabsBackground": "%shadow20%",
+    "tab.inactiveBackground": "%shadow20%e",
+    "tab.activeForeground": "%yellow13%",
+    "tab.activeBorder": "%yellow13%",
+    "tab.inactiveForeground": "%red10%",
+    "tab.hoverBackground": "%shadow0%",
     "focusBorder": "#45272f",
     "foreground": "%salmon%",
-    "widget.shadow": "%background2%",
-    "selection.background": "%background2%",
-    "descriptionForeground": "%hyperyellow%",
-    "errorForeground": "%error%",
+    "widget.shadow": "%shadow1%",
+    "selection.background": "%shadow1%",
+    "descriptionForeground": "%yellow13%",
+    "errorForeground": "%hyperred%",
     // buttons
-    "button.background": "%background2%",
-    "button.foreground": "%lightblue%",
-    "button.hoverBackground": "%hyperyellow%",
-    "badge.foreground": "%hyperyellow%",
-    "badge.background": "%background2%",
+    "button.background": "%shadow1%",
+    "button.foreground": "%blue7%",
+    "button.hoverBackground": "%yellow13%",
+    "badge.foreground": "%yellow13%",
+    "badge.background": "%shadow1%",
     // editor lines and selections
-    "editorLineNumber.activeForeground": "%hyperyellow%",
+    "editorLineNumber.activeForeground": "%yellow13%",
     //"editorIndentGuide.activeBackground": "#ffcb43",
-    "editor.lineHighlightBackground": "%deeppurple%",
-    "editor.rangeHighlightBackground": "%background2%",
-    "editor.rangeHighlightBorder": "%cyan%",
-    "editor.selectionBackground": "%terminalbackground%",
-    "editor.selectionForeground": "%background2%",
+    "editor.lineHighlightBackground": "%magenta0%",
+    "editor.rangeHighlightBackground": "%shadow1%",
+    "editor.rangeHighlightBorder": "%blue13%",
+    "editor.selectionBackground": "%cyan0%",
+    "editor.selectionForeground": "%shadow1%",
     "editor.selectionHighlightBackground": "#211a5766",
-    //"editor.selectionHighlightBorder": "%cyan%",
-    "editorCursor.foreground": "%hyperyellow%",
+    //"editor.selectionHighlightBorder": "%blue13%",
+    "editorCursor.foreground": "%yellow13%",
     // bottom status bar
-    "editorWidget.background": "%background1%",
-    "statusBar.background": "%background1%",
-    "statusBar.noFolderBackground": "#522f33",
-    "titleBar.activeBackground": "%background1%",
+    "editorWidget.background": "%shadow20%",
+    "statusBar.background": "%shadow20%",
+    "statusBar.noFolderBackground": "%yellow0%",
+    "titleBar.activeBackground": "%shadow20%",
     // Panel and Terminal
-    "panel.background": "%terminalbackground%",
-    "panel.border": "%hypergreen%",
-    "panelTitle.activeForeground": "%lemonyellow%",
+    "panel.background": "%cyan0%",
+    "panel.border": "%cyan13%",
+    "panelTitle.activeForeground": "%hyperyellow%",
     "panelTitle.inactiveForeground": "%fadedgreen%",
-    "terminal.foreground": "%limegreen%",
+    "terminal.foreground": "%hypergreen%",
     "terminal.selectionBackground": "%smoke%",
-    "editorMarkerNavigationWarning.background": "%error%",
-    "editorSuggestWidget.background": "%background1%e",
-    "editorSuggestWidget.selectedBackground": "%retroblue%",
+    "editorMarkerNavigationWarning.background": "%hyperred%",
+    "editorSuggestWidget.background": "%shadow20%e",
+    "editorSuggestWidget.selectedBackground": "%cyan1%",
     "list.activeSelectionBackground": "%smoke%",
-    "list.activeSelectionForeground": "%lemonyellow%",
+    "list.activeSelectionForeground": "%hyperyellow%",
     "list.inactiveSelectionBackground": "%smoke%",
-    "list.hoverBackground": "%retroblue%",
-    "list.focusBackground": "#002998ce",
-    "terminal.ansiBrightMagenta": "%magenta%",
+    "list.hoverBackground": "%cyan1%",
+    "list.focusBackground": "%cyan2%",
+    "terminal.ansiBrightMagenta": "%hypermagenta%",
     "terminal.ansiBrightRed": "%salmon%"
   },
   "tokenColors": [
@@ -139,7 +139,7 @@
       "name": "Variables",
       "scope": "variable",
       "settings": {
-        "foreground": "%red%"
+        "foreground": "%red8%"
       }
     },
     {
@@ -150,21 +150,21 @@
         "support.function.any-method"
       ],
       "settings": {
-        "foreground": "%lightblue%"
+        "foreground": "%blue7%"
       }
     },
     {
       "name": "Classes",
       "scope": ["support.class", "entity.name.class", "entity.name.type"],
       "settings": {
-        "foreground": "%goldfish%"
+        "foreground": "%orange9%"
       }
     },
     {
       "name": "Methods",
       "scope": "keyword.other.special-method",
       "settings": {
-        "foreground": "%lightblue%"
+        "foreground": "%blue7%"
       }
     },
     {
@@ -178,7 +178,7 @@
       "name": "Support",
       "scope": "support.function",
       "settings": {
-        "foreground": "%tan%"
+        "foreground": "%yellow5%"
       }
     },
     {
@@ -189,7 +189,7 @@
         "entity.other.inherited-class"
       ],
       "settings": {
-        "foreground": "%limegreen%"
+        "foreground": "%hypergreen%"
       }
     },
     {
@@ -224,7 +224,7 @@
       "name": "Tags",
       "scope": "entity.name.tag",
       "settings": {
-        "foreground": "%red%"
+        "foreground": "%red8%"
       }
     },
     {
@@ -241,7 +241,7 @@
         "punctuation.definition.entity"
       ],
       "settings": {
-        "foreground": "%lightblue%"
+        "foreground": "%blue7%"
       }
     },
     {
@@ -268,7 +268,7 @@
       ],
       "settings": {
         "fontStyle": "",
-        "foreground": "%lightblue%"
+        "foreground": "%blue7%"
       }
     },
     {
@@ -283,7 +283,7 @@
       "scope": ["markup.bold", "punctuation.definition.bold"],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "%goldfish%"
+        "foreground": "%orange9%"
       }
     },
     {
@@ -298,14 +298,14 @@
       "name": "Code",
       "scope": "markup.inline.raw",
       "settings": {
-        "foreground": "%limegreen%"
+        "foreground": "%hypergreen%"
       }
     },
     {
       "name": "Link Text",
       "scope": "string.other.link",
       "settings": {
-        "foreground": "%red%"
+        "foreground": "%red8%"
       }
     },
     {
@@ -319,7 +319,7 @@
       "name": "Lists",
       "scope": "markup.list",
       "settings": {
-        "foreground": "%red%"
+        "foreground": "%red8%"
       }
     },
     {
@@ -341,14 +341,14 @@
       "name": "Inserted",
       "scope": "markup.inserted",
       "settings": {
-        "foreground": "%limegreen%"
+        "foreground": "%hypergreen%"
       }
     },
     {
       "name": "Deleted",
       "scope": "markup.deleted",
       "settings": {
-        "foreground": "%red%"
+        "foreground": "%red8%"
       }
     },
     {
@@ -362,35 +362,35 @@
       "name": "Colors",
       "scope": "constant.other.color",
       "settings": {
-        "foreground": "%tan%"
+        "foreground": "%yellow5%"
       }
     },
     {
       "name": "Regular Expressions",
       "scope": "string.regexp",
       "settings": {
-        "foreground": "%tan%"
+        "foreground": "%yellow5%"
       }
     },
     {
       "name": "Escape Characters",
       "scope": "constant.character.escape",
       "settings": {
-        "foreground": "%tan%"
+        "foreground": "%yellow5%"
       }
     },
     {
       "name": "Embedded",
       "scope": ["punctuation.section.embedded", "variable.interpolation"],
       "settings": {
-        "foreground": "%hypergreen%"
+        "foreground": "%cyan13%"
       }
     },
     {
       "name": "Invalid",
       "scope": "invalid.illegal",
       "settings": {
-        "foreground": "%red%"
+        "foreground": "%red8%"
       }
     },
 
@@ -401,7 +401,7 @@
         "source.json meta.structure.dictionary.json string.quoted.double.json"
       ],
       "settings": {
-        "foreground": "%lemonyellow%"
+        "foreground": "%hyperyellow%"
       }
     },
     {
@@ -410,7 +410,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json"
       ],
       "settings": {
-        "foreground": "%goldfish%"
+        "foreground": "%orange9%"
       }
     },
     {
@@ -428,7 +428,7 @@
         "source.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "%hypergreen%",
+        "foreground": "%cyan13%",
         "fontStyle": "bold"
       }
     },
@@ -438,7 +438,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "%hypergreen%",
+        "foreground": "%cyan13%",
         "fontStyle": "bold"
       }
     },
@@ -448,7 +448,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "%limegreen%",
+        "foreground": "%hypergreen%",
         "fontStyle": "bold"
       }
     },
@@ -479,7 +479,7 @@
         "source.css.scss meta.property-list.scss meta.property-list.scss meta.property-list.scss meta.property-value.scss support.constant.property-value.css"
       ],
       "settings": {
-        "foreground": "%hyperyellow%"
+        "foreground": "%yellow13%"
       }
     },
     //SCSS property value levels
@@ -489,7 +489,7 @@
         "support.type.property-name.css meta.property-name.scss meta.property-list.scss source.css.scss"
       ],
       "settings": {
-        "foreground": "%blue%",
+        "foreground": "%blue7%",
         "fontStyle": "bold"
       }
     },
@@ -499,7 +499,7 @@
         "source.css.scss meta.property-list.scss meta.property-list.scss meta.property-list.scss meta.property-name.scss support.type.property-name.css"
       ],
       "settings": {
-        "foreground": "%blue%",
+        "foreground": "%blue7%",
         "fontStyle": "bold"
       }
     },
@@ -577,11 +577,35 @@
       }
     },
 
+    //- HTML
+    {
+      "name": "html open tag <",
+      "scope": ["html.enzo.tag.start.opening"],
+      "settings": {
+        "foreground": "%red5%"
+      }
+    },
+    {
+      "name": "html open tag >",
+      "scope": ["html.enzo.tag.content.opening"],
+      "settings": {
+        "foreground": "%red7%"
+      }
+    },
+
+    {
+      "name": "html open tag >",
+      "scope": ["html.enzo.tag.end.opening"],
+      "settings": {
+        "foreground": "%red1%"
+      }
+    },
+
     {
       "name": "commas",
       "scope": ["punctuation.separator.comma.js"],
       "settings": {
-        "foreground": "%yellow%"
+        "foreground": "%yellow7%"
       }
     },
 
@@ -589,7 +613,7 @@
       "name": "array brackets",
       "scope": ["meta.array.literal.js meta.brace.square.js "],
       "settings": {
-        "foreground": "%yellow%"
+        "foreground": "%yellow7%"
       }
     },
 
@@ -597,7 +621,7 @@
       "name": "equals sign for assigning variables",
       "scope": ["keyword.operator.assignment.js"],
       "settings": {
-        "foreground": "%goldfish%"
+        "foreground": "%orange9%"
       }
     },
 
@@ -605,7 +629,7 @@
       "name": "equals sign for assigning variables",
       "scope": ["punctuation.separator.key-value.html"],
       "settings": {
-        "foreground": "%goldfish%"
+        "foreground": "%orange9%"
       }
     },
 
@@ -613,7 +637,7 @@
       "name": "comparison sign",
       "scope": ["keyword.operator.comparison.js"],
       "settings": {
-        "foreground": "%goldfish%"
+        "foreground": "%orange9%"
       }
     },
 
@@ -630,7 +654,7 @@
       "name": "variable being used with a function",
       "scope": ["support.variable.property.js"],
       "settings": {
-        "foreground": "%magenta%"
+        "foreground": "%hypermagenta%"
       }
     },
 
@@ -638,7 +662,7 @@
       "name": "operators",
       "scope": ["keyword.operator.arithmetic.js"],
       "settings": {
-        "foreground": "%goldfish%"
+        "foreground": "%orange9%"
       }
     }
   ]

@@ -4,7 +4,7 @@ Custom vscode theme with extended syntax sugar. Based off @idleberg's [hopscotch
 
 ## TODO
 
-[] collate palette reference into variables.json
+[x] collate palette reference into variables.json
 [] strip out as much syntax hilighting as possible from hilighting regex extension
 [] research adding hilighting settings into extension somehow?
 
