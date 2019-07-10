@@ -19,29 +19,42 @@
   "keyEquivalent": "^~H",
   "name": "HTML",
   "patterns": [
-    {
-      "begin": "(<(?!\\?php|\\!|\\/))([\\s\\S]*)",
-      "beginCaptures": {
-        "1": {
-          "name": "html.enzo.tag.start.opening"
-        },
-        "2": {
-          "name": "html.enzo.tag.content.opening"
-        }
-      },
-      "end": "(>(?=\\/?))",
-      "endCaptures": {
-        "1": {
-          "name": "html.enzo.tag.end.opening"
-        }
-      },
-      "name": "test.html.enzo",
-      "patterns": [
-        {
-          "include": "#tag-stuff"
-        }
-      ]
-    }
+    // the below captures work correctly but they only give very little additional access to the themable decorators
+    // {
+    //   "begin": "(<(?!\\?php|\\!|/))(\\w+)([\\s\\S]*?)(>(?=/?))",
+    //   "beginCaptures": {
+    //     "1": {
+    //       "name": "html.enzo.tag.start.opening"
+    //     },
+    //     "2": {
+    //       "name": "html.enzo.tag.name.opening"
+    //     },
+    //     "3": {
+    //       "name": "html.enzo.tag.attributes.opening"
+    //     },
+    //     "4": {
+    //       "name": "html.enzo.tag.end.opening"
+    //     }
+    //   },
+    //   "end": "(<\\/)(\\w+)(>)",
+    //   "endCaptures": {
+    //     "1": {
+    //       "name": "html.enzo.tag.start.closing"
+    //     },
+    //     "2": {
+    //       "name": "html.enzo.tag.name.closing"
+    //     },
+    //     "3": {
+    //       "name": "html.enzo.tag.end.closing"
+    //     }
+    //   },
+    //   "name": "test.html.enzo",
+    //   "patterns": [
+    //     {
+    //       "include": "#tag-stuff"
+    //     }
+    //   ]
+    // }
   ],
   "repository": {
     "embedded-code": {

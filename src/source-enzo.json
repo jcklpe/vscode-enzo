@@ -578,28 +578,32 @@
     },
 
     //- HTML
-    {
-      "name": "html open tag <",
-      "scope": ["html.enzo.tag.start.opening"],
-      "settings": {
-        "foreground": "%red5%"
-      }
-    },
-    {
-      "name": "html open tag >",
-      "scope": ["html.enzo.tag.content.opening"],
-      "settings": {
-        "foreground": "%red7%"
-      }
-    },
 
-    {
-      "name": "html open tag >",
-      "scope": ["html.enzo.tag.end.opening"],
-      "settings": {
-        "foreground": "%red1%"
-      }
-    },
+    // The below has been commented out because while the syntax hilighting works, it can only take hex colors and it lacks the ability to style other kinds of decorators
+
+    //closing tags
+    // {
+    //   "name": "html closing tag <",
+    //   "scope": ["html.enzo.tag.start.closing"],
+    //   "settings": {
+    //     "foreground": "%slimegreen%"
+    //   }
+    // },
+    // {
+    //   "name": "html closing tag >",
+    //   "scope": ["html.enzo.tag.name.closing"],
+    //   "settings": {
+    //     "foreground": "%slimegreen%"
+    //   }
+    // },
+
+    // {
+    //   "name": "html closing tag >",
+    //   "scope": ["html.enzo.tag.end.closing"],
+    //   "settings": {
+    //     "foreground": "%slimegreen%"
+    //   }
+    // },
 
     {
       "name": "commas",
