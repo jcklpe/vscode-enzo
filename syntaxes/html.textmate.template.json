@@ -1,5 +1,6 @@
 
 {
+  //The following is a textmate syntax that I made using the vscode examples in their vscode-textmate repo, and adding on some other bits and pieces I found around the web. Even though I've decided to not use the built in syntax hilighting I am keeping this file around for reference because I found the vscode syntax documentation pretty thin.
 	"scopeName": "text.enzo",
 	"uuid": "17994EC8-6B1D-11D9-AC3A-000D93589AF6",
 	"version": "https://github.com/textmate/html.tmbundle/commit/9f812c89f4990a98391701caa77824c94860538f",
