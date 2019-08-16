@@ -2,7 +2,7 @@
   "name": "enzo",
   "displayName": "enzo",
   "description": "theme and syntax for vscode",
-  "version": "1.0",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.36.0"
   },
@@ -38,12 +38,12 @@
     "visual studio code",
     "enzo"
   ],
-  "publisher": "Aslan French",
+  "publisher": "jcklpe",
   "author": {
     "name": "Aslan French (jcklpe)",
     "url": "https://www.jackalope.tech"
   },
-  "icon": "./images/logo.png",
+  "icon": "images/logo.png",
   "galleryBanner": {
     "color": "#2b2d35",
     "theme": "dark"
