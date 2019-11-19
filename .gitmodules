@@ -4,3 +4,4 @@
 [submodule "src/libs/vscode-highlight"]
 	path = src/libs/vscode-highlight
 	url = https://github.com/fabiospampinato/vscode-highlight.git
+    ignore = dirty
