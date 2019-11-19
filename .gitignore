@@ -5,3 +5,5 @@ npm-debug.log*
 package-lock.json
 todo.md
 vendor/
+.DS_Store
+*DS_Stor*

@@ -1,247 +1,313 @@
 {
-  // this top brace is here to keep vscode from complaining about improperly formatted json
   //- HILIGHT REGEX
   "highlight.regexFlags": "gmi",
   "highlight.decorations": {
     "rangeBehavior": 3
-  },
+  }
+
+  ,
   "highlight.regexes": {
+
     //TODO: styling
-    "(//?TODO:?)(.*)": [
-      {
-        "overviewRulerColor": "#ffcc00",
+    "(//?TODO:?)(.*)": [ {
+      "overviewRulerColor": "#ffcc00",
         "backgroundColor": "#ffcc00",
         "color": "#1f1f1f",
         "fontWeight": "bold",
         "borderRadius": "5px 0px 0px 5px"
-      },
+    }
+
+    ,
       {
-        "backgroundColor": "#d9ad00",
+      "backgroundColor": "#d9ad00",
         "color": "#1f1f1f"
-      }
+    }
+
     ],
     //FIXME: styling
-    "(//?FIXME:?)(.*)": [
-      {
-        "overviewRulerColor": "#ff0000",
+    "(//?FIXME:?)(.*)": [ {
+      "overviewRulerColor": "#ff0000",
         "backgroundColor": "#ff0000",
         "color": "#1f1f1f",
         "fontWeight": "bold",
         "borderRadius": "5px 0px 0px 5px"
-      },
+    }
+
+    ,
       {
-        "backgroundColor": "#d90000",
+      "backgroundColor": "#d90000",
         "color": "#1f1f1f"
-      }
+    }
+
     ],
     //HACK: styling
-    "(//?HACK:?)(.*)": [
-      {
-        "overviewRulerColor": "#4b553f",
+    "(//?HACK:?)(.*)": [ {
+      "overviewRulerColor": "#4b553f",
         "backgroundColor": "rgba(75, 85, 63, 1)",
         "color": "#1f1f1f",
         "fontWeight": "bold",
         "borderRadius": "5px 0px 0px 5px"
-      },
+    }
+
+    ,
       {
-        "backgroundColor": "rgba(75, 85, 63, .5)",
+      "backgroundColor": "rgba(75, 85, 63, .5)",
         "color": "#1f1f1f"
-      }
+    }
+
     ],
     //NOTE: styling
-    "(/)(/?)(N)(O?)(T)(E)(:?)(.*)": [
-      {
-        "overviewRulerColor": "#45304C",
+    "(/)(/?)(N)(O?)(T)(E)(:?)(.*)": [ {
+      "overviewRulerColor": "#45304C",
         "backgroundColor": "#45304C",
         "color": "#1f1f1f",
         "fontWeight": "bold",
         "borderRadius": "5px 0px 0px 5px"
-      },
+    }
+
+    ,
       {
-        "overviewRulerColor": "#4A3862",
+      "overviewRulerColor": "#4A3862",
         "backgroundColor": "#4A3862",
         "color": "#1f1f1f",
         "fontWeight": "bold"
-      },
+    }
+
+    ,
       {
-        "overviewRulerColor": "#3F4889",
+      "overviewRulerColor": "#3F4889",
         "backgroundColor": "#3F4889",
         "color": "#1f1f1f",
         "fontWeight": "bold"
-      },
+    }
+
+    ,
       {
-        "overviewRulerColor": "#3F73A4",
+      "overviewRulerColor": "#3F73A4",
         "backgroundColor": "#3F73A4",
         "color": "#1f1f1f",
         "fontWeight": "bold"
-      },
+    }
+
+    ,
       {
-        "overviewRulerColor": "#37C2C3",
+      "overviewRulerColor": "#37C2C3",
         "backgroundColor": "#37C2C3",
         "color": "#1f1f1f",
         "fontWeight": "bold"
-      },
+    }
+
+    ,
       {
-        "overviewRulerColor": "#28E27D",
+      "overviewRulerColor": "#28E27D",
         "backgroundColor": "#28E27D",
         "color": "#1f1f1f",
         "fontWeight": "bold"
-      },
+    }
+
+    ,
       {
-        "overviewRulerColor": "rgba(30, 241, 68, 0.9)",
+      "overviewRulerColor": "rgba(30, 241, 68, 0.9)",
         "backgroundColor": "rgba(30, 241, 68, 0.9)",
         "color": "#1f1f1f",
         "fontWeight": "bold"
-      },
+    }
+
+    ,
       {
-        "backgroundColor": "rgba(30, 241, 68, 0.09)",
+      "backgroundColor": "rgba(30, 241, 68, 0.09)",
         "color": "black"
-      }
+    }
+
+    ],
+    //REMOVE: styling
+    "(//?REMOVE:?)(.*)": [ {
+      "overviewRulerColor": "#4b553f",
+        "backgroundColor": "rgba(63, 75, 85, 1)",
+        "color": "#1f1f1f",
+        "fontWeight": "bold",
+        "borderRadius": "5px 0px 0px 5px"
+    }
+
+    ,
+      {
+      "backgroundColor": "rgba(63, 75, 85, 0.5)",
+        "color": "#1f1f1f"
+    }
+
     ],
     // @import styling
-    "(// )(@\\w+)": [
-      {},
+    "(// )(@\\w+)": [ {}
+
+    ,
       {
-        "color": "#4de0ff"
-      }
+      "color": "#4de0ff"
+    }
+
     ],
     // HTML  Title
-    "(<!--(?:\\/\\/))(.*?)(-->)": [
-      {
-        "backgroundColor": "cyan",
+    "(<!--(?:\\/\\/))(.*?)(-->)": [ {
+      "backgroundColor": "cyan",
         "color": "black",
         "overviewRulerColor": "yellow"
-      },
+    }
+
+    ,
       {
-        "backgroundColor": "cyan",
+      "backgroundColor": "cyan",
         "color": "black",
         "overviewRulerColor": "yellow"
-      },
+    }
+
+    ,
       {
-        "backgroundColor": "red",
+      "backgroundColor": "red",
         "color": "black",
         "overviewRulerColor": "yellow"
-      }
+    }
+
     ],
     ///////////////////////////////
     //-  Title styling
-    "(\\/\\/\\-)(.*)": [
-      {
-        "overviewRulerColor": "yellow",
+    "(\\/\\/\\-)(.*)": [ {
+      "overviewRulerColor": "yellow",
         "backgroundColor": "yellow",
         "color": "yellow",
         "fontWeight": "bold"
-      },
+    }
+
+    ,
       {
-        "backgroundColor": "black",
+      "backgroundColor": "black",
         "color": "#72edeb",
         "fontWeight": "bold",
         "isWholeLine": true,
         "fontSize": "2em"
-      }
+    }
+
     ],
     //////////////////////////////
     //- Additional styling for signage
-    "(\\/\\/\\/\\/.*)(.*)": [
-      {
-        "overviewRulerColor": "yellow",
+    "(\\/\\/\\/\\/.*)(.*)": [ {
+      "overviewRulerColor": "yellow",
         "backgroundColor": "yellow",
         "color": "yellow",
         "fontWeight": "bold"
-      },
+    }
+
+    ,
       {
-        "backgroundColor": "black",
+      "backgroundColor": "black",
         "color": "yellow",
         "fontWeight": "bold",
         "isWholeLine": true
-      }
+    }
+
     ],
     //## monospaced hash comments
-    "(^##(?!-).+(?=\n|\r))": [
-      {
-        "overviewRulerColor": "#73f0ae",
+    "(^##(?!-).+(?=\n|\r))": [ {
+      "overviewRulerColor": "#73f0ae",
         "backgroundColor": "#181c21",
         "color": " #73f0ae",
         "fontWeight": "italic",
         "isWholeLine": true
-      }
+    }
+
     ],
     // ##-  hash comments titles
-    "(##-.*?)(.+(?=\n|\r))": [
-      {
-        "overviewRulerColor": "yellow",
+    "(##-.*?)(.+(?=\n|\r))": [ {
+      "overviewRulerColor": "yellow",
         "backgroundColor": "yellow",
         "color": "black",
         "fontWeight": "bold"
-      },
+    }
+
+    ,
       {
-        "backgroundColor": "black",
+      "backgroundColor": "black",
         "color": "#72edeb",
         "fontWeight": "bold",
         "isWholeLine": true,
         "fontSize": "2em"
-      }
+    }
+
+    ],
+    // #--  hash comments titles
+    "(#--.*?)(.+(?=\n|\r))": [ {
+      "overviewRulerColor": "gold",
+        "backgroundColor": "gold",
+        "color": "#181c21",
+        "fontWeight": "bold"
+    }
+
+    ,
+      {
+      "backgroundColor": "#181c21",
+        "color": "#1BB4C0",
+        "fontSize": "1.5em"
+    }
+
     ],
     //*- SCSS block commented code */
-    "((\\/\\*-)([^/*][^*]*\\*+)*\\/)": [
-      // */*
+    "((\\/\\*-)([^/*][^*]*\\*+)*\\/)": [ // */*
+
       {
-        "overviewRulerColor": "Blue",
+      "overviewRulerColor": "Blue",
         "backgroundColor": "#181c21",
         "color": " #73f0ae",
         "fontWeight": "italic",
         "isWholeLine": true
-      }
+    }
+
     ],
     //{{ Angular Dynamic Variable styling}}
-    "(\\{\\{[^\\}|^\\r|^\\n]*\\}\\})(?!\\})": [
-      {
-        "backgroundColor": "rgba(109, 158, 70, 0.71)",
+    "(\\{\\{[^\\}|^\\r|^\\n]*\\}\\})(?!\\})": [ {
+      "backgroundColor": "rgba(109, 158, 70, 0.71)",
         "color": "#000",
         "fontWeight": "bold",
         "borderRadius": "10px"
-      }
+    }
+
     ],
     //{ React Dynamic Variable styling }
-    "(\\{[^\\}|^\\r|^\\n]*\\})(?!\\})": [
-      {
-        "backgroundColor": "rgba(0, 217, 255, 0.95)",
+    "(\\{[^\\}|^\\r|^\\n]*\\})(?!\\})": [ {
+      "backgroundColor": "rgba(109, 158, 70, 0.71)",
         "color": "#001130",
         "fontWeight": "bold",
         "borderRadius": "10px"
-      }
+    }
+
     ],
     // HTML Comment Block
     // -->
-    "(<!--(?!\\/\\/))((.|\n|\r)*?)(\\-\\->)": [
-      //-->
-      {
-        "backgroundColor": "rgba(59,64,82, .7)",
-        "borderStyle": "solid",
-        "borderWidth": "1px",
-        "borderColor": "rgba(59,64,82, .7)",
-        "color": "#385d74",
-        "isWholeLine": "true",
-        "overviewRulerColor": "rgba(59,64,82, .7)"
-      },
-      {
-        "borderWidth": "1px",
-        "borderStyle": "solid",
-        "borderColor": "rgba(59,64,82, .7)",
-        "borderRadius": "0px",
-        "backgroundColor": "33b4052",
-        "color": "#385d74",
-        "isWholeLine": "true"
-      },
-      {
-        "backgroundColor": "rgba(59,64,82, .7)",
-        "borderStyle": "solid",
-        "borderWidth": "1px",
-        "borderColor": "rgba(59,64,82, .7)",
-        "color": "#385d74",
-        "isWholeLine": "true"
-      }
-    ],
+    // "(<!--(?!\\/\\/))((.|\n|\r)*?)(\\-\\->)": [ //-->
+    //   {
+    //     "backgroundColor": "rgba(59,64,82, .7)",
+    //     "borderStyle": "solid",
+    //     "borderWidth": "1px",
+    //     "borderColor": "rgba(59,64,82, .7)",
+    //     "color": "#385d74",
+    //     "isWholeLine": "true",
+    //     "overviewRulerColor": "rgba(59,64,82, .7)"
+    //   },
+    //   {
+    //     "borderWidth": "1px",
+    //     "borderStyle": "solid",
+    //     "borderColor": "rgba(59,64,82, .7)",
+    //     "borderRadius": "0px",
+    //     "backgroundColor": "33b4052",
+    //     "color": "#385d74",
+    //     "isWholeLine": "true"
+    //   },
+    //   {
+    //     "backgroundColor": "rgba(59,64,82, .7)",
+    //     "borderStyle": "solid",
+    //     "borderWidth": "1px",
+    //     "borderColor": "rgba(59,64,82, .7)",
+    //     "color": "#385d74",
+    //     "isWholeLine": "true"
+    //   }
+    // ],
     //- Opening  HTML Tag
     //    <tag>
     // <?php
@@ -249,9 +315,8 @@
     //      <img/>
     //      testing
     //    </tag>
-    "(<(?!\\?php|\\!|/))(\\w+)([\\s\\S]*?)(>(?=/?))": [
-      {
-        "borderWidth": "1px 0 0 1px",
+    "(<(?!\\?php|\\!|/))(\\w+)([\\s\\S]*?)(>(?=/?))": [ {
+      "borderWidth": "1px 0 0 1px",
         "borderStyle": "solid",
         "borderColor": "rgba(212,64,64, 0.5)",
         "borderRadius": "16px 0 0 0",
@@ -260,9 +325,11 @@
         "fontStyle": "bold",
         "fontWeight": "bold",
         "margin": "50px"
-      },
+    }
+
+    ,
       {
-        "backgroundColor": "rgba(33, 18, 30, 0.5)",
+      "backgroundColor": "rgba(33, 18, 30, 0.5)",
         "borderWidth": "1px 0 0 0",
         "borderStyle": "solid",
         "borderColor": "rgba(212,64,64, 0.5)",
@@ -270,19 +337,24 @@
         "color": "#c03339",
         "fontStyle": "bold",
         "fontWeight": "bold"
-      },
+    }
+
+    ,
       {
-        "backgroundColor": "rgba(33, 18, 30, 0.3)"
+      "backgroundColor": "rgba(33, 18, 30, 0.3)"
         // "borderWidth": "0 0 0 0",
         // "borderStyle": "solid",
         // "borderColor": "rgba(255, 103, 123, 0.5)",
         // "borderRadius": "0px",
         //"color": "rgba(212,64,64, 0.5)"
-      },
+    }
+
+    ,
       {
-        "backgroundColor": "rgba(15, 21, 31, 0.3)",
+      "backgroundColor": "rgba(15, 21, 31, 0.3)",
         "color": "rgba(40, 68, 85, 0.7)"
-      }
+    }
+
     ],
     //- Self-closing HTML Tags
     // <img/>
@@ -291,23 +363,26 @@
     // </ app>
     //([abc])
     // </ app>
-    "(<(?!\\/p\\!))(.*|\n*|\r)(\\/>)": [
-      {
-        "borderWidth": "1px 0 1px 1px",
+    "(<(?!\\/p\\!))(.*|\n*|\r)(\\/>)": [ {
+      "borderWidth": "1px 0 1px 1px",
         "borderStyle": "solid",
         "borderColor": "rgba(192, 51, 57, .5)",
         "borderRadius": "16px 0 0 0",
         "backgroundColor": "rgba(26, 18, 26, 0.4)"
-      },
+    }
+
+    ,
       {
-        "borderWidth": "0 0 0 0",
+      "borderWidth": "0 0 0 0",
         "borderStyle": "solid",
         "borderColor": "rgba(192, 51, 57, .6)",
         "borderRadius": "0px",
         "backgroundColor": "rgba(26, 18, 26, 0.4)"
-      },
+    }
+
+    ,
       {
-        "borderWidth": "1px 1px 1px 0px ",
+      "borderWidth": "1px 1px 1px 0px ",
         "borderStyle": "solid",
         "borderColor": "rgba(192, 51, 57, .5)",
         "borderRadius": "0 8px 8px 0",
@@ -315,7 +390,8 @@
         "color": "#c03339",
         "fontStyle": "bold",
         "fontWeight": "bold"
-      }
+    }
+
     ],
     //- Closing HTML Tags
     //  <tag>
@@ -325,22 +401,25 @@
     // ?>
     // </ app>
     // </tag>
-    "(<\\/)(\\w+)(>)": [
-      {
-        "backgroundColor": "rgba(15, 21, 31, 0.45)",
+    "(<\\/)(\\w+)(>)": [ {
+      "backgroundColor": "rgba(15, 21, 31, 0.45)",
         "color": "rgba(40, 68, 85, 0.7)"
-      },
+    }
+
+    ,
       {
-        "borderWidth": "0 0 1px 0",
+      "borderWidth": "0 0 1px 0",
         "borderStyle": "solid",
         "borderColor": "rgba(192, 51, 57, .5)",
         "borderRadius": "0px",
         "backgroundColor": "rgba(26, 18, 26, 0.5)",
         "color": "rgba(192, 51, 57, .5)",
         "fontWeight": "bold"
-      },
+    }
+
+    ,
       {
-        "borderWidth": "0 1px 1px 0",
+      "borderWidth": "0 1px 1px 0",
         "borderStyle": "solid",
         "borderColor": "rgba(192, 51, 57, .5)",
         "borderRadius": "0 0 16px 0",
@@ -348,16 +427,16 @@
         "color": "#c03339",
         "fontStyle": "bold",
         "fontWeight": "bold"
-      }
+    }
+
     ],
     //- PHP Tag
-    // <?php fdjfkldjsaf
+    // <?php     fdjfkldjsaf
     // fjdklsafjkld
-
     // ?>
-    "(<\\?php)((.|\n|\r)*?)(\\?>)": [
-      {
-        "borderWidth": "2px 0 0 2px",
+    // originally used this (<\\?php)()([\\s\\S]*?)(\\?>) for some reason not sure. making note of it here because sync plugin keeps breaking stuff
+    "(<\\?php)([\\s\\S]*?)(\\?>)": [ {
+      "borderWidth": "2px 0 0 2px",
         "borderStyle": "solid",
         "borderColor": "rgba(144, 117, 172, .5)",
         "borderRadius": "0px",
@@ -365,77 +444,97 @@
         "color": "rgba(144, 117, 172, 1)",
         "fontStyle": "bold",
         "fontWeight": "bold"
-      },
+    }
 
+    ,
+    // {
+    //   "backgroundColor": "rgba(24, 33, 33, 0.4)"
+    //   // "borderWidth": "0px 0 0 0",
+    //   // "borderStyle": "solid",
+    //   // "borderColor": "rgba(144, 117, 172, .5)",
+    //   // "borderRadius": "0px",
+    //   // "color": "rgba(144, 117, 172, .3)"
+    // },
       {
-        "backgroundColor": "rgba(24, 33, 33, 0.4)"
+      "backgroundColor": "rgba(24, 33, 33, 0.4)"
         // "borderWidth": "0px 0 0 0",
         // "borderStyle": "solid",
         // "borderColor": "rgba(144, 117, 172, .5)",
         // "borderRadius": "0px",
         // "color": "rgba(144, 117, 172, .3)"
-      },
+    }
+
+    ,
       {
-        "borderWidth": "0 2px 2px 0",
+      "borderWidth": "0 2px 2px 0",
         "borderStyle": "solid",
         "borderColor": "rgba(144, 117, 172, .5)",
         "borderRadius": "0px",
         "backgroundColor": "rgba(33, 24, 28, 0.6)",
         "color": "rgba(144, 117, 172, 1)"
-      }
+    }
+
     ],
     // HTML Comment Block
-    "(<!--(?!\\/\\/))((.|\n|\\s|\r)*?)(-->)": [
-      {
-        "backgroundColor": "rgba(59,64,82, .7) ",
-        "borderStyle": "solid",
-        "borderWidth": "1px",
-        "borderColor": "rgba(59,64,82, .7)",
-        "color": "gold",
-        "isWholeLine": "true"
-      },
-      {
-        "borderWidth": "1px",
-        "borderStyle": "solid",
-        "borderColor": "rgba(59,64,82, .7)",
-        "backgroundColor": "rgba(59,64,82, .7)"
-      },
-      {
-        "backgroundColor": "rgba(59,64,82, .7)",
-        "borderStyle": "solid",
-        "borderWidth": "1px",
-        "borderColor": "rgba(59,64,82, .7)",
-        "color": "red",
-        "isWholeLine": "true"
-      }
-    ],
-    // <!--// stuff -->
+    // "(<!--(?!\\/\\/))((.|\n|\\s|\r)*?)(-->)": [
+    //   {
+    //     "backgroundColor": "rgba(59,64,82, .7) ",
+    //     "borderStyle": "solid",
+    //     "borderWidth": "1px",
+    //     "borderColor": "rgba(59,64,82, .7)",
+    //     "color": "gold",
+    //     "isWholeLine": "true"
+    //   },
+    //   {
+    //     "borderWidth": "1px",
+    //     "borderStyle": "solid",
+    //     "borderColor": "rgba(59,64,82, .7)",
+    //     "backgroundColor": "rgba(59,64,82, .7)"
+    //   },
+    //   {
+    //     "backgroundColor": "rgba(59,64,82, .7)",
+    //     "borderStyle": "solid",
+    //     "borderWidth": "1px",
+    //     "borderColor": "rgba(59,64,82, .7)",
+    //     "color": "red",
+    //     "isWholeLine": "true"
+    //   }
+    // ],
     //- HTML  Title
-    "(<!--(?:\\/\\/))(.*?)(-->)": [
-      {
-        "backgroundColor": "yellow",
+    "(<!--(?:\\/\\/))(.*?)(-->)": [ {
+      "backgroundColor": "yellow",
         "color": "yellow",
         "overviewRulerColor": "yellow"
-      },
+    }
+
+    ,
       {
-        "backgroundColor": "black",
+      "backgroundColor": "black",
         "color": "cyan"
-      },
+    }
+
+    ,
       {
-        "backgroundColor": "black",
+      "backgroundColor": "black",
         "color": "black"
-      }
+    }
+
     ],
     // doctype
-    "(<!doctype)(.*?)(>)": [
-      {
-        "backgroundColor": "rgba(43, 31, 36, 0.2)",
+    "(<!doctype)(.*?)(>)": [ {
+      "backgroundColor": "rgba(43, 31, 36, 0.2)",
         "color": "rgba(30, 18, 20, .5)",
         "fontWeight": "italic",
         "isWholeLine": true
-      },
-      {},
+    }
+
+    ,
       {}
+
+    ,
+      {}
+
     ]
+  }
   }
 }

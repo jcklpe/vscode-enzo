@@ -6,7 +6,9 @@
   "engines": {
     "vscode": "^1.36.0"
   },
-  "categories": ["Themes"],
+  "categories": [
+    "Themes"
+  ],
   "keywords": [
     "theme",
     "syntax coloring",
@@ -53,7 +55,9 @@
     "url": "https://github.com/jcklpe/vscode-enzo"
   },
   "homepage": "https://github.com/jcklpe/vscode-enzo/blob/master/README.md",
-  "bugs": { "url": "https://github.com/jcklpe/vscode-enzo/issues" },
+  "bugs": {
+    "url": "https://github.com/jcklpe/vscode-enzo/issues"
+  },
   "contributes": {
     "themes": [
       {

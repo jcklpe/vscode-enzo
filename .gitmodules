@@ -1,3 +1,6 @@
 [submodule "injectedTheme-vscode"]
 	path = injectedTheme-vscode
 	url = https://github.com/jcklpe/injectedTheme-vscode.git
+[submodule "src/libs/vscode-highlight"]
+	path = src/libs/vscode-highlight
+	url = https://github.com/fabiospampinato/vscode-highlight.git

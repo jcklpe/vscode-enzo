@@ -81,3 +81,14 @@ Someday I'd like to maybe even play with [animation loops](https://codepen.io/Fe
 ## License
 
 This work is licensed under the [Creative Commons CC0 1.0 Universal License](http://creativecommons.org/publicdomain/zero/1.0/legalcode).
+
+# TODO:
+
+- [ ] strip background color from html/php tags, and angular/react javascript interpolation
+- [ ] add background color in with targeted css injection based on those regex targets
+- [ ] clean up vscode injectedTheme in relation to enzo
+- [ ] part out the scss stuff in injectedTheme
+- [ ] delete extra syntax stuff
+- [ ] pull out theming from settings file and rely only on theme (to make it easier to switch to eppz as needed for Unity dev)
+- [ ] Add language specific targeting to regex hilighting
+- [ ] 
